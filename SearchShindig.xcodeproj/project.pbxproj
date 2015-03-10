@@ -13,6 +13,19 @@
 		3292DE921AAF333F0033AF6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3292DE911AAF333F0033AF6F /* Images.xcassets */; };
 		3292DE951AAF333F0033AF6F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3292DE931AAF333F0033AF6F /* LaunchScreen.xib */; };
 		3292DEA11AAF333F0033AF6F /* SearchShindigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292DEA01AAF333F0033AF6F /* SearchShindigTests.swift */; };
+		3292DEBB1AAF35260033AF6F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292DEAC1AAF35260033AF6F /* Array.swift */; };
+		3292DEBC1AAF35260033AF6F /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292DEAD1AAF35260033AF6F /* Bool.swift */; };
+		3292DEBD1AAF35260033AF6F /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292DEAE1AAF35260033AF6F /* Character.swift */; };
+		3292DEBE1AAF35260033AF6F /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292DEAF1AAF35260033AF6F /* Dictionary.swift */; };
+		3292DEBF1AAF35260033AF6F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292DEB01AAF35260033AF6F /* Double.swift */; };
+		3292DEC01AAF35260033AF6F /* ExSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292DEB21AAF35260033AF6F /* ExSwift.swift */; };
+		3292DEC11AAF35260033AF6F /* Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292DEB31AAF35260033AF6F /* Float.swift */; };
+		3292DEC31AAF35260033AF6F /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292DEB51AAF35260033AF6F /* Int.swift */; };
+		3292DEC41AAF35260033AF6F /* NSArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292DEB61AAF35260033AF6F /* NSArray.swift */; };
+		3292DEC51AAF35260033AF6F /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292DEB71AAF35260033AF6F /* NSDate.swift */; };
+		3292DEC61AAF35260033AF6F /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292DEB81AAF35260033AF6F /* Range.swift */; };
+		3292DEC71AAF35260033AF6F /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292DEB91AAF35260033AF6F /* Sequence.swift */; };
+		3292DEC81AAF35260033AF6F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292DEBA1AAF35260033AF6F /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,19 @@
 		3292DE9A1AAF333F0033AF6F /* SearchShindigTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchShindigTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3292DE9F1AAF333F0033AF6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3292DEA01AAF333F0033AF6F /* SearchShindigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchShindigTests.swift; sourceTree = "<group>"; };
+		3292DEAC1AAF35260033AF6F /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		3292DEAD1AAF35260033AF6F /* Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
+		3292DEAE1AAF35260033AF6F /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		3292DEAF1AAF35260033AF6F /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		3292DEB01AAF35260033AF6F /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		3292DEB21AAF35260033AF6F /* ExSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSwift.swift; sourceTree = "<group>"; };
+		3292DEB31AAF35260033AF6F /* Float.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Float.swift; sourceTree = "<group>"; };
+		3292DEB51AAF35260033AF6F /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		3292DEB61AAF35260033AF6F /* NSArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSArray.swift; sourceTree = "<group>"; };
+		3292DEB71AAF35260033AF6F /* NSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDate.swift; sourceTree = "<group>"; };
+		3292DEB81AAF35260033AF6F /* Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
+		3292DEB91AAF35260033AF6F /* Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
+		3292DEBA1AAF35260033AF6F /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +109,7 @@
 				3292DE911AAF333F0033AF6F /* Images.xcassets */,
 				3292DE931AAF333F0033AF6F /* LaunchScreen.xib */,
 				3292DE881AAF333F0033AF6F /* Supporting Files */,
+				3292DEAA1AAF34E00033AF6F /* External */,
 			);
 			path = SearchShindig;
 			sourceTree = "<group>";
@@ -111,6 +138,35 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		3292DEAA1AAF34E00033AF6F /* External */ = {
+			isa = PBXGroup;
+			children = (
+				3292DEAB1AAF35260033AF6F /* ExSwift */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		3292DEAB1AAF35260033AF6F /* ExSwift */ = {
+			isa = PBXGroup;
+			children = (
+				3292DEAC1AAF35260033AF6F /* Array.swift */,
+				3292DEAD1AAF35260033AF6F /* Bool.swift */,
+				3292DEAE1AAF35260033AF6F /* Character.swift */,
+				3292DEAF1AAF35260033AF6F /* Dictionary.swift */,
+				3292DEB01AAF35260033AF6F /* Double.swift */,
+				3292DEB21AAF35260033AF6F /* ExSwift.swift */,
+				3292DEB31AAF35260033AF6F /* Float.swift */,
+				3292DEB51AAF35260033AF6F /* Int.swift */,
+				3292DEB61AAF35260033AF6F /* NSArray.swift */,
+				3292DEB71AAF35260033AF6F /* NSDate.swift */,
+				3292DEB81AAF35260033AF6F /* Range.swift */,
+				3292DEB91AAF35260033AF6F /* Sequence.swift */,
+				3292DEBA1AAF35260033AF6F /* String.swift */,
+			);
+			name = ExSwift;
+			path = External/ExSwift/ExSwift;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -212,8 +268,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3292DEBB1AAF35260033AF6F /* Array.swift in Sources */,
+				3292DEBC1AAF35260033AF6F /* Bool.swift in Sources */,
+				3292DEC71AAF35260033AF6F /* Sequence.swift in Sources */,
+				3292DEC61AAF35260033AF6F /* Range.swift in Sources */,
+				3292DEC01AAF35260033AF6F /* ExSwift.swift in Sources */,
+				3292DEBD1AAF35260033AF6F /* Character.swift in Sources */,
 				3292DE8D1AAF333F0033AF6F /* ViewController.swift in Sources */,
 				3292DE8B1AAF333F0033AF6F /* AppDelegate.swift in Sources */,
+				3292DEC41AAF35260033AF6F /* NSArray.swift in Sources */,
+				3292DEBE1AAF35260033AF6F /* Dictionary.swift in Sources */,
+				3292DEC31AAF35260033AF6F /* Int.swift in Sources */,
+				3292DEBF1AAF35260033AF6F /* Double.swift in Sources */,
+				3292DEC81AAF35260033AF6F /* String.swift in Sources */,
+				3292DEC51AAF35260033AF6F /* NSDate.swift in Sources */,
+				3292DEC11AAF35260033AF6F /* Float.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +476,7 @@
 				3292DEA61AAF333F0033AF6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3292DEA71AAF333F0033AF6F /* Build configuration list for PBXNativeTarget "SearchShindigTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +485,7 @@
 				3292DEA91AAF333F0033AF6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

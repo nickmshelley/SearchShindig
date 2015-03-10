@@ -1,0 +1,3 @@
+[submodule "External/ExSwift"]
+	path = External/ExSwift
+	url = https://github.com/pNre/ExSwift.git

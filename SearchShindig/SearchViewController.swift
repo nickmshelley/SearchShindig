@@ -115,6 +115,7 @@ class SearchViewController: UIViewController, UICollectionViewDataSource, UIColl
     
     // MARK: - Private Methods
     
+    // This is hacky, but the response seems to be a valid javascript object, and a quick google search didn't give me anything better
     private func processFlickrResponse(response: String) -> [[String: AnyObject]]? {
         let beginningRemoved = response.stringByReplacingOccurrencesOfString("jsonFlickrApi(", withString: "")
         let validJsonString: String = beginningRemoved.substringToIndex(beginningRemoved.endIndex.predecessor())

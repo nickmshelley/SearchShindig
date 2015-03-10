@@ -64,7 +64,7 @@ class SearchViewController: UIViewController, UICollectionViewDataSource, UIColl
         let manager = AFHTTPRequestOperationManager()
         manager.responseSerializer = AFHTTPResponseSerializer()
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), { () -> Void in
-            manager.GET("https://api.flickr.com/services/rest/", parameters: ["format": "json", "api_key": "1dd17dde0fed7286935d83875fcc17dd", "method": "flickr.photos.search", "text": "fun"], success: { (operation, response) -> Void in
+            manager.GET("https://api.flickr.com/services/rest/", parameters: ["format": "json", "api_key": "1dd17dde0fed7286935d83875fcc17dd", "method": "flickr.photos.search", "text": searchText], success: { (operation, response) -> Void in
                 if let stringResponse = NSString(data: response as NSData, encoding: NSUTF8StringEncoding) {
                     if let json: [[String: AnyObject]] = self.processFlickrResponse(stringResponse) {
                         self.images = json.take(25).map { photoDict in

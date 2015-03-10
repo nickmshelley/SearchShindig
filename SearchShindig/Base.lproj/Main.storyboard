@@ -75,6 +75,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="collectionView" destination="AEX-xn-cuq" id="soc-f4-JpR"/>
                         <outlet property="searchBar" destination="ebb-Uw-Erk" id="euZ-SG-TGP"/>
                     </connections>
                 </viewController>

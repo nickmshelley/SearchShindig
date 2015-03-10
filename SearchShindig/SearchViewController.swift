@@ -38,7 +38,6 @@ class SearchViewController: UIViewController, UICollectionViewDataSource, UIColl
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as ThumbnailCell
-        cell.backgroundColor = UIColor.grayColor()
         if let url = NSURL(string: images[indexPath.row].thumbURL) {
             cell.thumbnailImageView.setImageWithURL(url)
         }
@@ -102,6 +101,16 @@ class SearchViewController: UIViewController, UICollectionViewDataSource, UIColl
             
             return Void()
         })
+    }
+    
+    // MARK: - Navigation
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let imageController = segue.destinationViewController as? ImageViewController {
+            if let urlString = sender as? String {
+                imageController.urlString = urlString
+            }
+        }
     }
     
     // MARK: - Private Methods

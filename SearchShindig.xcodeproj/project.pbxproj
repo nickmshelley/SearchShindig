@@ -27,6 +27,7 @@
 		3292DEC71AAF35260033AF6F /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292DEB91AAF35260033AF6F /* Sequence.swift */; };
 		3292DEC81AAF35260033AF6F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292DEBA1AAF35260033AF6F /* String.swift */; };
 		3292DECA1AAF38120033AF6F /* ThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292DEC91AAF38120033AF6F /* ThumbnailCell.swift */; };
+		3292DECF1AAF533A0033AF6F /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292DECE1AAF533A0033AF6F /* ImageViewController.swift */; };
 		402D3F869A248DA042A52182 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 383378ABE5F442EACFEE3C5D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		3292DEBA1AAF35260033AF6F /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		3292DEC91AAF38120033AF6F /* ThumbnailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailCell.swift; sourceTree = "<group>"; };
 		3292DECB1AAF40410033AF6F /* SearchShindig-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SearchShindig-Bridging-Header.h"; sourceTree = "<group>"; };
+		3292DECE1AAF533A0033AF6F /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		3791EF63F1E27F31127718E7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		383378ABE5F442EACFEE3C5D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -116,6 +118,7 @@
 				3292DE8A1AAF333F0033AF6F /* AppDelegate.swift */,
 				3292DE8C1AAF333F0033AF6F /* SearchViewController.swift */,
 				3292DEC91AAF38120033AF6F /* ThumbnailCell.swift */,
+				3292DECE1AAF533A0033AF6F /* ImageViewController.swift */,
 				3292DE8E1AAF333F0033AF6F /* Main.storyboard */,
 				3292DE911AAF333F0033AF6F /* Images.xcassets */,
 				3292DE931AAF333F0033AF6F /* LaunchScreen.xib */,
@@ -335,6 +338,7 @@
 				3292DEBB1AAF35260033AF6F /* Array.swift in Sources */,
 				3292DEBC1AAF35260033AF6F /* Bool.swift in Sources */,
 				3292DECA1AAF38120033AF6F /* ThumbnailCell.swift in Sources */,
+				3292DECF1AAF533A0033AF6F /* ImageViewController.swift in Sources */,
 				3292DEC71AAF35260033AF6F /* Sequence.swift in Sources */,
 				3292DEC61AAF35260033AF6F /* Range.swift in Sources */,
 				3292DEC01AAF35260033AF6F /* ExSwift.swift in Sources */,

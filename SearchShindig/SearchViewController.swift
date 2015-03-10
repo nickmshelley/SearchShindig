@@ -54,20 +54,6 @@ class SearchViewController: UIViewController, UICollectionViewDataSource, UIColl
     
     func searchBarSearchButtonClicked(searchBar: UISearchBar) {
         let searchText = searchBar.text
-        let arr: [[String: AnyObject]] = []
-        let things: [(thumbURL: String, largeURL: String)] = arr.take(25).map { photoDict in
-            if let farmInt = photoDict["farm"] as? Int {
-                let farm = String(farmInt)
-                if let serverInt = photoDict["server"] as? Int {
-                    let server = String(serverInt)
-                    if let idInt = photoDict["id"] as? Int {
-                        let id = String(idInt)
-                    }
-                }
-                "https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}_[mstzb].jpg"
-            }
-            return ("hi", "there")
-        }
         let manager = AFHTTPRequestOperationManager()
         manager.responseSerializer = AFHTTPResponseSerializer()
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), { () -> Void in

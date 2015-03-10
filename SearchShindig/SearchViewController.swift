@@ -38,12 +38,20 @@ class SearchViewController: UIViewController, UICollectionViewDataSource, UIColl
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as ThumbnailCell
+        cell.backgroundColor = UIColor.grayColor()
         if let url = NSURL(string: images[indexPath.row].thumbURL) {
             cell.thumbnailImageView.setImageWithURL(url)
         }
         
         return cell
     }
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        let item = images[indexPath.row]
+        performSegueWithIdentifier("ImageSegue", sender: item.largeURL)
+    }
+    
+    // MARK: - UISearchBar Delegate
     
     func searchBarSearchButtonClicked(searchBar: UISearchBar) {
         let searchText = searchBar.text
@@ -95,6 +103,8 @@ class SearchViewController: UIViewController, UICollectionViewDataSource, UIColl
             return Void()
         })
     }
+    
+    // MARK: - Private Methods
     
     private func processFlickrResponse(response: String) -> [[String: AnyObject]]? {
         let beginningRemoved = response.stringByReplacingOccurrencesOfString("jsonFlickrApi(", withString: "")
